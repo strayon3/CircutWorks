@@ -10,16 +10,17 @@
     <div class="container">
         <h1>Stop doing things the hard way.</h1>
         <p class="subtext">
-            Tell me what you're doing - I'll tell you if I can automate it.
+            Show me what you're doing — I’ll tell you if it can be automated.
         </p>
 
-        <p class="trust" >Free estimate. No pressure.</p>
+        <p class="trust" >Free estimate. No pressure. No commitment.</p>
 
         <form>
-            <label>What are you doing over and over?</label>
-            <textarea rows="4" placeholder="Example: copying data between spreadsheets...."></textarea>
+            <label>What are you doing over and over right now?</label>
+            <textarea rows="4" placeholder="Example: copying data between spreadsheets, renaming files, retyping info…"></textarea>
 
-            <label>How often?</label>
+
+            <label>How often does this happen?</label>
             <select>
                 <option>Daily</option>
                 <option>Weekly</option>
@@ -29,12 +30,31 @@
             <label>Your email</label>
             <input type="email" placeholder="your@emailaddress.com">
 
-            <button type="submit">Get a free estimate</button>
+            <label>Phone (optional)</label>
+            <input type="tel" placeholder="Your phone number here">
+
+            <label class="radio-option">
+                <input type="radio" name="contact" value="text">
+                <span>Text</span>
+            </label>
+
+            <label class="radio-option">
+                <input type="radio" name="contact" value="call">
+                <span>Call</span>
+            </label>
+
+            <label class="radio-option">
+                <input type="radio" name="contact" value="Either one">
+                <span>Both Options</span>
+            </label>
+            
+
+            <button type="submit">See if this can be automated</button>
         </form>
 
         <p class="footer">
-            I build tools to automate repetative computer tasks.<br>
-            Local - not a company.
+            I build simple tools to eliminate repetitive computer work.<br>
+            <span class="local-tag">Local. Not a company.</span>
         </p>
     </div>
 </body>
