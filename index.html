@@ -15,23 +15,23 @@
 
         <p class="trust" >Free estimate. No pressure. No commitment.</p>
 
-        <form>
+        <form action="https://formspree.io/f/mbdqkknr" method="POST">
             <label>What are you doing over and over right now?</label>
-            <textarea rows="4" placeholder="Example: copying data between spreadsheets, renaming files, retyping info…"></textarea>
+            <textarea name="task" rows="4" placeholder="Example: copying data between spreadsheets, renaming files, retyping info…"></textarea>
 
 
             <label>How often does this happen?</label>
-            <select>
+            <select name="frequency">
                 <option>Daily</option>
                 <option>Weekly</option>
                 <option>Occasionally</option>
             </select>
 
             <label>Your email</label>
-            <input type="email" placeholder="your@emailaddress.com">
+            <input type="email" name= "email" placeholder="your@emailaddress.com">
 
             <label>Phone (optional)</label>
-            <input type="tel" placeholder="Your phone number here">
+            <input type="tel" name="phone" placeholder="Your phone number here">
 
             <label class="radio-option">
                 <input type="radio" name="contact" value="text">
