@@ -158,3 +158,19 @@ textarea::placeholder {
     border-color: #9eff00;
     box-shadow: 0 0 6px rgba(158, 255, 0, 0.4);
 }
+
+/* Confirmation text under button */
+.confirmation-text {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #bbb;
+    text-align: center;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+/* Highlight key phrase */
+.confirmation-text strong {
+    color: #9eff00;
+    font-weight: 500;
+}
