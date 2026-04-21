@@ -83,6 +83,7 @@ button{
     width: 100%;
     padding: 14px;
     margin-top: 25px;
+    margin-bottom: 5px; /* add this */
     background: #9eff00;
     border: none;
     font-weight: bold;
